@@ -10,8 +10,8 @@ const App = () => {
   const [allWaves, setAllWaves] = useState([]);
   const [message, setMessage] = useState('')
   const [showLoader, setShowLoader] = useState(false)
-
-  const contractAddress = "0x120D4D73117068a6dB21B3f13D9a4Ab2fa098aCf";
+  
+  const contractAddress = "0xF052EBFD7b02788030673fEFabE5594123f770a3"
 
   const contractABI = abi.abi;
   
