@@ -208,15 +208,15 @@ const wave = async () => {
                         👋 Hey there!
                       </h2>
                       <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                        I am Hideo Kuze and I am a cyber-network architect.
+                        I'm Kevin. I spend my weekends working on web3 projects.
                       </p>
                       <p className="mt-2 mx-auto max-w-2xl text-lg text-white">
-                        Connect your Ethereum wallet and support us in our battle against Section 9!
+                        Connect your Ethereum wallet and say hi!
                       </p>
                       {showLoader && <MiningSpinner />}
                       <p className="mt-2 mx-auto max-w-2xl text-lg text-indigo-200">
                       {waveCount !== '0' && 
-                        'Thank you! You are supporter #' + waveCount + '. Your support will help us in our cause.'
+                        'Thank you! You are message #' + waveCount + '.'
                       }
                       </p>
                       <p className="min-w-0 flex-1">
